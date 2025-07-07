@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.input {
+  @apply w-full px-4 py-3 bg-white text-black rounded-md border border-gray-300 
+         focus:outline-none focus:ring-2 focus:ring-[#f68600] 
+         transition duration-300 hover:border-[#f68600];
+}
